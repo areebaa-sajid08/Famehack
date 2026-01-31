@@ -1,0 +1,1185 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EmbedSocial Clone</title> <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body> <!-- Navbar -->
+
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top bg-white border-bottom py-3">
+        <div class="container">
+            <a class="navbar-brand fw-bold d-flex align-items-center gap-2" href="#">
+                <!-- <div class="brand-icon text-white rounded p-1 d-flex align-items-center justify-content-center"
+                    style="width: 30px; height: 30px;">
+                </div> -->
+                <img src="images/Group 336.svg" alt="">
+                <!-- <span>embedsocial</span> -->
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto align-items-center fw-medium">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-dark" href="#" role="button"
+                            data-bs-toggle="dropdown">Platform</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Instagram Stories</a></li>
+                            <li><a class="dropdown-item" href="#">Reviews</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a class="nav-link text-dark" href="#">Widgets</a></li>
+                    <li class="nav-item"><a class="nav-link text-dark" href="#">Templates</a></li>
+                    <li class="nav-item"><a class="nav-link text-dark" href="#">Pricing</a></li>
+                </ul>
+                <div class="d-flex align-items-center gap-3">
+                    <a href="#" class="text-dark text-decoration-none fw-medium">Login</a>
+                    <a href="#" class="btn btn-primary px-4 py-2 fw-semibold">Start Free Trial</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero-section d-flex align-items-center overflow-hidden position-relative">
+        <div class="container">
+            <div class="row align-items-center">
+                <!-- Left Content -->
+                <div class="col-lg-6 position-relative z-2">
+                    <!-- Floating Badge -->
+                    <div class="position-absolute d-none d-lg-block" style="top: -60px; right: 0;">
+
+                    </div>
+
+                    <h1 class="display-6 fw-bold mb-4 lh-tight">
+                        Display Instagram Stories <br> on any website, <span class="highlight-yellow">in seconds.</span>
+                    </h1>
+                    <p class="lead text-secondary mb-5 pe-lg-5">
+                        Display Instagram Stories
+                        Widget on your website, that auto-syncs, and updates each time you add
+                        a photo in your active story.
+                    </p>
+
+                    <!-- Email Form -->
+                    <div class="hero-form mb-4">
+                        <div class="input-group p-1 bg-white border rounded shadow-sm" style="max-width: 500px;">
+                            <input type="email" class="form-control border-0 shadow-none ps-3"
+                                placeholder="Enter your email...">
+                            <button class="btn btn-primary px-4 py-2 fw-semibold rounded" type="button">
+                                Start Free Trial <i class="fas fa-arrow-right ms-2"></i>
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Trust Text -->
+                    <div class="small text-muted d-flex gap-3 align-items-center">
+                        <span><i class="fas fa-check-circle text-success me-1"></i> Free 7-day trial</span>
+                        <span>•</span>
+                        <span>Easy setup</span>
+                        <span>•</span>
+                        <span>Cancel any time</span>
+                    </div>
+                </div>
+
+                <!-- Right Content (Visuals) -->
+                <div class="col-lg-6 mt-lg-0 mt-5 text-center text-lg-end">
+                    <img src="images/Group 1537.svg" alt="Instagram Stories Widget Preview" class="img-fluid"
+                        style="max-height: 550px; margin-right: 100px;">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Social Proof Section -->
+    <section class="py-4 border-bottom">
+        <div class="container">
+            <p class="text-uppercase text-muted fw-bold small mb-4">JOIN 50.000+ WEBSITES THAT USE EMBEDSOCIAL TO SELL
+                MORE</p>
+            <div class="d-flex justify-content-between align-items-center flex-wrap gap-4 logos-container">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/CNN_International_logo.svg/2048px-CNN_International_logo.svg.png"
+                    alt="CNN" class="img-fluid logo-item" style="height: 25px;">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/6/67/National_Geographic_Logo.svg"
+                    alt="National Geographic" class="img-fluid logo-item" style="height: 30px;">
+
+                <!-- Florence by Mills Style -->
+                <span class="logo-text fw-bold text-secondary h4 mb-0"
+                    style="font-family: 'Times New Roman', serif; letter-spacing: -1px;">florence</span>
+
+                <!-- Ancestry Style -->
+                <div class="d-flex align-items-center gap-1 opacity-50 logo-item">
+                    <i class="fas fa-leaf"></i>
+                    <span class="h4 mb-0 fw-bold" style="font-family: serif;">ancestry</span>
+                </div>
+
+                <!-- Industrious Style -->
+                <div class="d-flex align-items-center gap-1 opacity-50 logo-item">
+                    <i class="fas fa-building small"></i>
+                    <span class="small fw-bold text-uppercase"
+                        style="letter-spacing: 2px; font-family: sans-serif;">INDUSTRIOUS</span>
+                </div>
+
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Logo_NIKE.svg/1200px-Logo_NIKE.svg.png"
+                    alt="Nike" class="img-fluid logo-item" style="height: 25px;">
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    <!-- Widgets Section -->
+    <section class="section-widgets py-5">
+        <div class="container">
+            <div class="row align-items-center"> <!-- Browser Mockup (Left) -->
+                <div class="col-lg-8 mb-5 mb-lg-0">
+                    <div class="browser-mockup shadow-lg">
+                        <div class="browser-header"> <span class="dot red"></span> <span class="dot yellow"></span>
+                            <span class="dot green"></span>
+                        </div>
+                        <div class="browser-body"> <!-- Mockup Content -->
+                            <div class="mockup-content p-4"
+                                style="background: url(images/preview-story-widget.svg) center/cover no-repeat; height: 400px; position: relative;">
+                                <div class="overlay-white p-3 text-center">
+                                    <h5 class="fw-bold mb-1">Foodie</h5>
+                                    <h2 class="fw-bold">Try the best recipes</h2> <button
+                                        class="btn btn-dark btn-sm rounded-pill mt-2">See all recipes</button>
+                                </div> <!-- Decorative Cursor -->
+                                <div class="cursor-mockup" style="top: 20%; left: 30%;">
+                                    <div class="cursor-label bg-danger">irza ibrahim</div>
+                                </div> <!-- Horizontal Stories -->
+                                <!-- <div class="mockup-stories d-flex gap-2 mt-auto position-absolute bottom-0 start-0 p-3 w-100 overflow-hidden"> <div class="m-story" style="background-image: url('https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=200');"> </div> <div class="m-story" style="background-image: url('https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=200');"> </div> <div class="m-story" style="background-image: url('https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?w=200');"> </div> <div class="m-story" style="background-image: url('https://images.unsplash.com/photo-1482049016688-2d3e1b311543?w=200');"> </div> <div class="m-story" style="background-image: url('https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=200');"> </div> </div> -->
+                            </div>
+                        </div>
+                    </div>
+                </div> <!-- Widgets List (Right) -->
+                <div class="col-lg-4 ps-lg-5">
+                    <h2 class="fw-bold mb-5">Widgets for<br>every website.</h2>
+                    <div class="widget-list d-flex flex-column gap-3">
+                        <div class="widget-list-item text-muted"> <i class="fa-solid fa-ellipsis fa-lg me-3"></i>
+                            Highlights </div>
+                        <div class="widget-list-item text-muted"> <i
+                                class="fa-regular fa-window-maximize fa-lg me-3"></i> Popover </div>
+                        <div class="widget-list-item text-muted"> <i class="fa-solid fa-layer-group fa-lg me-3"></i>
+                            Inline slideshows </div>
+                        <div class="widget-list-item text-muted"> <i class="fa-solid fa-list fa-lg me-3"></i> Story list
+                            gallery </div>
+                        <div class="widget-list-item active text-primary bg-light rounded p-2 fw-bold"> <i
+                                class="fa-solid fa-table-columns fa-lg me-3"></i> Carousel gallery </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> <!-- Features Section -->
+    <section class="section-features py-5" style="background-color: #f3f6f9;">
+        <div class="container text-center py-5">
+            <h2 class="display-5 fw-bolder mb-3">Let your story live <span class="highlight">more than 24h.</span></h2>
+            <p class="text-muted mb-5 mx-auto" style="max-width: 700px;"> You've worked hard to create a beautiful
+                Instagram story but it disappears in 24 hours? No worries, use our story saver for Instagram to bring
+                them to life on your website. </p>
+            <div class="row justify-content-center g-4">
+                <div class="col-6 col-md-4 col-lg-2">
+                    <div class="feature-card bg-white p-4 rounded-3 shadow-sm h-100"> <i
+                            class="fa-brands fa-instagram fa-2x mb-3 insta-gradient-text"></i>
+                        <h6 class="fw-bold mb-1">Auto-Sync</h6> <small class="text-muted">Instagram Stories</small>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-2">
+                    <div class="feature-card bg-white p-4 rounded-3 shadow-sm h-100"> <i
+                            class="fa-brands fa-facebook fa-2x mb-3 text-primary"></i>
+                        <h6 class="fw-bold mb-1">Upload</h6> <small class="text-muted">Facebook Stories</small>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-2">
+                    <div class="feature-card bg-white p-4 rounded-3 shadow-sm h-100"> <i
+                            class="fa-brands fa-tiktok fa-2x mb-3 text-dark"></i>
+                        <h6 class="fw-bold mb-1">Sync</h6> <small class="text-muted">TikTok Stories</small>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-2">
+                    <div class="feature-card bg-white p-4 rounded-3 shadow-sm h-100"> <i
+                            class="fa-brands fa-twitter fa-2x mb-3 text-info"></i>
+                        <h6 class="fw-bold mb-1">Upload</h6> <small class="text-muted">Twitter Fleets</small>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-2">
+                    <div class="feature-card bg-white p-4 rounded-3 shadow-sm h-100"> <i
+                            class="fa-brands fa-linkedin fa-2x mb-3 text-primary"></i>
+                        <h6 class="fw-bold mb-1">Upload</h6> <small class="text-muted">LinkedIn Stories</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section-growth py-5 mt-5">
+        <div class="container text-center position-relative"> <!-- Headline -->
+            <h2 class="display-4 fw-bolder mb-5"> Double your <span class="highlight-yellow">conversions.</span><br>
+                Double your <span class="highlight-yellow">growth.</span> </h2> <!-- Decorative Cursor -->
+            <div class="cursor-mockup cursor-purple">
+                <div class="cursor-arrow-purple"></div> <span class="cursor-label-purple">Umer Gfx</span>
+            </div> <!-- 3 Column Cards -->
+            <div class="row g-4 mb-5 text-start justify-content-center">
+                <div class="col-md-4">
+                    <div class="growth-card bg-light p-4 rounded-3 h-100">
+                        <h4 class="fw-bold mb-3">Brands</h4>
+                        <div class="d-flex align-items-center mb-2"> <i class="fa-solid fa-arrow-trend-up me-2"></i>
+                            <h6 class="fw-bold mb-0">Increases conversions</h6>
+                        </div>
+                        <p class="text-muted small">Enhance the visual showcase of your products with unique content
+                            making visitors convert to buyers.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="growth-card bg-light p-4 rounded-3 h-100">
+                        <h4 class="fw-bold mb-3">Marketers</h4>
+                        <div class="d-flex align-items-center mb-2"> <i class="fa-regular fa-clock me-2"></i>
+                            <h6 class="fw-bold mb-0">Save time</h6>
+                        </div>
+                        <p class="text-muted small">No more re-purposing, re-cropping or re-uploading the same content
+                            from your Instagram stories to your website.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="growth-card bg-light p-4 rounded-3 h-100">
+                        <h4 class="fw-bold mb-3">Web designers</h4>
+                        <div class="d-flex align-items-center mb-2"> <i class="fa-brands fa-instagram me-2"></i>
+                            <h6 class="fw-bold mb-0">Fresh content</h6>
+                        </div>
+                        <p class="text-muted small">Every story you post on Instagram, it is automatically saved in your
+                            account. Auto updates you unique content.</p>
+                    </div>
+                </div>
+            </div> <!-- Testimonial -->
+            <div class="testimonial-section mt-5 pt-4">
+                <h3 class="serif-font mb-4 display-6">Clovin</h3>
+                <p class="lead text-muted fst-italic mx-auto" style="max-width: 700px; font-size: 1.1rem;">
+                    "Storytelling on another level. EmbedStories is great - it takes pride of place on our homepage
+                    aggregating stories from our Instagram account. I highly recommend this product. " </p>
+                <div class="d-flex align-items-center justify-content-center gap-3 mt-4"> <img
+                        src="images/Rectangle 192.svg" alt="Ben Calahen" class="rounded-3" width="50" height="50">
+                    <div class="text-start">
+                        <div class="fw-bold small">Ben Calahen, COO at Clovin</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <section class="pricing-section">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h1 class="pricing-title">Try all EmbedStories features 7 days free.</h1>
+                <p class="text-muted">Reach more with your Instagram stories.</p>
+                <div class="toggle-container mt-4 d-inline-block">
+                    <div class="d-flex align-items-center bg-white rounded p-1 shadow-sm">
+                        <button class="btn btn-sm btn-dark text-white rounded px-3 py-2">Annually, save 20%</button>
+                        <button class="btn btn-sm btn-light text-muted rounded px-3 py-2">Monthly</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row g-3 justify-content-center">
+                <!-- FREE Card -->
+                <div class="col-md-6 col-lg-3">
+                    <div class="card pricing-card h-100">
+                        <div class="card-body">
+                            <h5 class="fw-bold">FREE</h5>
+                            <div class="price mb-3">
+                                <span class="currency">$</span><span class="amount">0</span><span
+                                    class="period">/month</span>
+                            </div>
+                            <button class="btn btn-outline-primary w-100 mb-4 fw-bold">Start Using For Free</button>
+                            <ul class="list-unstyled feature-list-small">
+                                <li><i class="fa-solid fa-check text-dark"></i> <strong>1 Instagram Business
+                                        Account</strong></li>
+                                <li><i class="fa-solid fa-check text-dark"></i> Auto Update</li>
+                                <li><i class="fa-solid fa-check text-muted"></i> <span class="text-muted">Unlimited
+                                        Story Widgets</span></li>
+                                <li><i class="fa-solid fa-check text-muted"></i> <span class="text-muted">Unlimited
+                                        Galleries</span></li>
+                                <!-- More features -->
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- PRO Card -->
+                <div class="col-md-6 col-lg-3">
+                    <div class="card pricing-card h-100 pro-card">
+                        <div class="pro-badge">Most businesses start with PRO</div>
+                        <div class="card-body">
+                            <h5 class="fw-bold">PRO</h5>
+                            <div class="price mb-3">
+                                <span class="currency">$</span><span class="amount">29</span><span
+                                    class="period">/month</span>
+                            </div>
+                            <button class="btn btn-primary w-100 mb-4 fw-bold">Try Free For 7 Days</button>
+                            <ul class="list-unstyled feature-list-small">
+                                <li><i class="fa-solid fa-check text-dark"></i> <strong>1 Instagram Business
+                                        Account</strong></li>
+                                <li><i class="fa-solid fa-check text-dark"></i> Auto Update</li>
+                                <li><i class="fa-solid fa-check text-dark"></i> Unlimited Story Widgets</li>
+                                <li><i class="fa-solid fa-check text-dark"></i> Unlimited Galleries</li>
+                                <li><i class="fa-solid fa-check text-dark"></i> Multiple Layouts & Options</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- PRO Plus Card -->
+                <div class="col-md-6 col-lg-3">
+                    <div class="card pricing-card h-100">
+                        <div class="card-body">
+                            <h5 class="fw-bold">PRO Plus</h5>
+                            <div class="price mb-3">
+                                <span class="currency">$</span><span class="amount">49</span><span
+                                    class="period">/month</span>
+                            </div>
+                            <button class="btn btn-outline-primary w-100 mb-4 fw-bold">Try Free For 7 Days</button>
+                            <ul class="list-unstyled feature-list-small">
+                                <li><i class="fa-solid fa-check text-dark"></i> <strong>3 Instagram Business
+                                        Account</strong></li>
+                                <li><i class="fa-solid fa-check text-dark"></i> Auto Update</li>
+                                <li><i class="fa-solid fa-check text-dark"></i> Unlimited Story Widgets</li>
+                                <li><i class="fa-solid fa-check text-dark"></i> Unlimited Galleries</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- PREMIUM Card -->
+                <div class="col-md-6 col-lg-3">
+                    <div class="card pricing-card h-100">
+                        <div class="card-body">
+                            <h5 class="fw-bold">PREMIUM</h5>
+                            <div class="price mb-3">
+                                <span class="currency">$</span><span class="amount">99</span><span
+                                    class="period">/month</span>
+                            </div>
+                            <button class="btn btn-outline-primary w-100 mb-4 fw-bold">Try Free For 7 Days</button>
+                            <ul class="list-unstyled feature-list-small">
+                                <li><i class="fa-solid fa-check text-dark"></i> <strong>10 Instagram Business
+                                        Account</strong></li>
+                                <li><i class="fa-solid fa-check text-dark"></i> Auto Update</li>
+                                <li><i class="fa-solid fa-check text-dark"></i> Unlimited Story Widgets</li>
+                                <li><i class="fa-solid fa-check text-dark"></i> Unlimited Galleries</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="testimonials-section">
+        <div class="container-fluid px-5">
+            <div class="section-header text-center mb-5">
+                <h1 class="fw-bold mb-2">Our customers love EmbedStories</h1>
+                <p class="text-muted">Rated 4.8 by our customers on Facebook and Google</p>
+            </div>
+
+            <div class="row g-4">
+                <!-- Card 1 -->
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="review-card">
+                        <div class="user-info">
+                            <img src="https://i.pravatar.cc/150?u=1" alt="User" class="user-avatar">
+                            <div class="user-name">Terry Dias</div>
+                        </div>
+                        <div class="rating-stars">
+                            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                class="fa-solid fa-star"></i>
+                        </div>
+                        <p class="review-text">
+                            I just signed up for a trial and within a couple of hours had a brand new customer
+                            testimonials page built on our website as well as sliders...
+                        </p>
+                        <div class="review-footer">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/5/53/Google_%22G%22_Logo.svg"
+                                alt="Google" class="source-icon">
+                            <span class="review-date">2 weeks ago</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="review-card">
+                        <div class="user-info">
+                            <img src="https://i.pravatar.cc/150?u=2" alt="User" class="user-avatar">
+                            <div class="user-name">James Workman</div>
+                        </div>
+                        <div class="rating-stars">
+                            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                class="fa-solid fa-star"></i>
+                        </div>
+                        <p class="review-text">
+                            Seriously impressed by Embed Social.Good job making the app so easy to use.
+                        </p>
+                        <div class="review-footer">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/5/53/Google_%22G%22_Logo.svg"
+                                alt="Google" class="source-icon">
+                            <span class="review-date">2 weeks ago</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="review-card">
+                        <div class="user-info">
+                            <img src="https://i.pravatar.cc/150?u=3" alt="User" class="user-avatar">
+                            <div class="user-name">Ahmad Vaccaro</div>
+                        </div>
+                        <div class="rating-stars">
+                            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                class="fa-solid fa-star"></i>
+                        </div>
+                        <p class="review-text">
+                            EmbedSocial and their services is just perfect ! It has made my business life so much
+                            easier ! 5 stars!
+                        </p>
+                        <div class="review-footer">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/5/53/Google_%22G%22_Logo.svg"
+                                alt="Google" class="source-icon">
+                            <span class="review-date">2 weeks ago</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 4 -->
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="review-card">
+                        <div class="user-info">
+                            <img src="https://i.pravatar.cc/150?u=4" alt="User" class="user-avatar">
+                            <div class="user-name">Allison Culhane</div>
+                        </div>
+                        <div class="rating-stars">
+                            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                class="fa-solid fa-star"></i>
+                        </div>
+                        <p class="review-text">
+                            Awesome products, Superior human support.
+                        </p>
+                        <div class="review-footer">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/5/53/Google_%22G%22_Logo.svg"
+                                alt="Google" class="source-icon">
+                            <span class="review-date">2 weeks ago</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 5 -->
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="review-card">
+                        <div class="user-info">
+                            <img src="https://i.pravatar.cc/150?u=5" alt="User" class="user-avatar">
+                            <div class="user-name">Davis Herwitz</div>
+                        </div>
+                        <div class="rating-stars">
+                            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                class="fa-solid fa-star"></i>
+                        </div>
+                        <p class="review-text">
+                            I've been on the look out for lots of companies to do what they do, and I've never found any
+                            company who are so quick to get in touch and...
+                        </p>
+                        <div class="review-footer">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/5/53/Google_%22G%22_Logo.svg"
+                                alt="Google" class="source-icon">
+                            <span class="review-date">2 weeks ago</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 6 -->
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="review-card">
+                        <div class="user-info">
+                            <img src="https://i.pravatar.cc/150?u=6" alt="User" class="user-avatar">
+                            <div class="user-name">Jessie Grant</div>
+                        </div>
+                        <div class="rating-stars">
+                            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                class="fa-solid fa-star"></i>
+                        </div>
+                        <p class="review-text">
+                            Very impressed. 5 stars!
+                        </p>
+                        <div class="review-footer">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/5/53/Google_%22G%22_Logo.svg"
+                                alt="Google" class="source-icon">
+                            <span class="review-date">2 weeks ago</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 7 -->
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="review-card">
+                        <div class="user-info">
+                            <img src="https://i.pravatar.cc/150?u=7" alt="User" class="user-avatar">
+                            <div class="user-name">John Smith</div>
+                        </div>
+                        <div class="rating-stars">
+                            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                class="fa-solid fa-star"></i>
+                        </div>
+                        <p class="review-text">
+                            Our experience with EmbedStories is very good, very solid, loads fast, looks good.
+                        </p>
+                        <div class="review-footer">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/5/53/Google_%22G%22_Logo.svg"
+                                alt="Google" class="source-icon">
+                            <span class="review-date">2 weeks ago</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 8 -->
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="review-card">
+                        <div class="user-info">
+                            <img src="https://i.pravatar.cc/150?u=8" alt="User" class="user-avatar">
+                            <div class="user-name">Ben Calahen, <span class="text-muted fw-normal"
+                                    style="font-size:0.9em">COO at Clovin</span></div>
+                        </div>
+                        <div class="rating-stars">
+                            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                class="fa-solid fa-star"></i>
+                        </div>
+                        <p class="review-text">
+                            Storytelling on another level. EmbedStories is great - it takes pride of place on our
+                            homepage...
+                        </p>
+                        <div class="review-footer">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/5/53/Google_%22G%22_Logo.svg"
+                                alt="Google" class="source-icon">
+                            <span class="review-date">2 weeks ago</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="text-center mt-5 text-muted small">
+                Widget powered by <img src="https://placehold.co/15x15/0066ff/white?text=e" class="rounded-circle"
+                    style="vertical-align: middle;"> <span style="text-decoration: underline;">EmbedSocial</span>
+            </div>
+        </div>
+    </section>
+    <section class="features-section">
+        <div class="container">
+            <div class="text-center mb-5 features-header-wrapper">
+                <h1 class="features-main-title">
+                    More than just a widget.<br>
+                    A complete <span class="highlight-yellow">Stories Platform.</span>
+                </h1>
+            </div>
+
+            <!-- Feature 1 -->
+            <div class="row align-items-center feature-row">
+                <div class="col-lg-6 mb-4 mb-lg-0">
+                    <div class="feature-img-wrapper">
+                        <!-- Placeholder for 'Shop Now' phone mockup -->
+                        <img src="images/Group 1511.svg" class="img-fluid rounded-4 shadow-lg" alt="Shoppable Stories">
+                    </div>
+                </div>
+                <div class="col-lg-5 offset-lg-1">
+                    <span class="badge-custom badge-purple mb-3"><i class="fa-solid fa-bag-shopping me-2"></i> Shoppable
+                        Story</span>
+                    <h2 class="feature-title">Make your Instagram Stories, Shoppable</h2>
+                    <ul class="feature-list list-unstyled mt-4">
+                        <li><i class="fa-solid fa-check"></i> Use the Call to Action feature and add buy links to the
+                            Instagram stories</li>
+                        <li><i class="fa-solid fa-check"></i> Allow your web visitors to interact and directly buy the
+                            product showcased in the Instagram story.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Feature 2 -->
+            <div class="row align-items-center feature-row">
+                <div class="col-lg-5 order-2 order-lg-1">
+                    <span class="badge-custom badge-purple mb-3"><i class="fa-solid fa-bolt me-2"></i> Story Ads</span>
+                    <h2 class="feature-title">Boost your Instagram stories with few clicks</h2>
+                    <ul class="feature-list list-unstyled mt-4">
+                        <li><i class="fa-solid fa-check"></i> Create Instagram Story Ads in just a few clicks</li>
+                        <li><i class="fa-solid fa-check"></i> Archive Instagram Stories with EmbesStories and re-use
+                            them for Instagram Ads.</li>
+                        <li><i class="fa-solid fa-check"></i> <strong>This is an option that is not available in the
+                                Facebook Ads Manager.</strong></li>
+                    </ul>
+                </div>
+                <div class="col-lg-6 offset-lg-1 order-1 order-lg-2 mb-4 mb-lg-0">
+                    <div class="feature-img-wrapper">
+                        <!-- Placeholder for 'Story Ads' interface -->
+                        <img src="images/Group 1559.svg" class="img-fluid rounded-4 shadow-lg" alt="Story Ads">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Feature 3 -->
+            <div class="row align-items-center feature-row">
+                <div class="col-lg-6 mb-4 mb-lg-0">
+                    <div class="feature-img-wrapper">
+                        <!-- Placeholder for 'Analytics' phone mockup -->
+                        <img src="images/Group 1522.svg" class="img-fluid rounded-4 shadow-lg" alt="Analytics">
+                    </div>
+                </div>
+                <div class="col-lg-5 offset-lg-1">
+                    <span class="badge-custom badge-purple mb-3"><i class="fa-solid fa-chart-line me-2"></i> Reports and
+                        Analytics</span>
+                    <h2 class="feature-title">Create. Analyze. Grow.</h2>
+                    <ul class="feature-list list-unstyled mt-4">
+                        <li><i class="fa-solid fa-check"></i> Analyze conversions, clicks, views</li>
+                        <li><i class="fa-solid fa-check"></i> Compare metrics between products</li>
+                        <li><i class="fa-solid fa-check"></i> See the direct effect.</li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- Templates Section -->
+    <section class="templates-section text-center">
+        <div class="container">
+            <h1 class="templates-title">Get started with one<br>of our templates</h1>
+            <p class="templates-desc">
+                Start with one of our pre-designed templates. Create, personalize and embed the perfect widget for any
+                page or campaign in just minutes.
+            </p>
+            <a href="#" class="btn btn-templates text-decoration-none">
+                See templates demos <i class="fa-solid fa-arrow-right ms-2"></i>
+            </a>
+
+            <div class="row g-4 text-start">
+                <!-- Popover -->
+                <div class="col-md-6 col-lg-3">
+                    <div class="template-card">
+                        <div class="template-img-container">
+                            <img src="images/e-commerce - site.svg" alt="Popover">
+                        </div>
+                        <h3 class="template-title">Popover</h3>
+                        <p class="template-desc">
+                            Showcases on every page that gives the feel of a living & breathing website.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Highlights (Text First) -->
+                <div class="col-md-6 col-lg-3">
+                    <div class="template-card highlights-card">
+                        <div class="template-content">
+                            <h3 class="template-title">Highlights</h3>
+                            <p class="template-desc">
+                                Mimics the same functionality of the Instagram Highlights on your website.
+                            </p>
+                        </div>
+                        <div class="template-img-container">
+                            <img src="images/preview-story-widget (1).svg" alt="Highlights">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Slider -->
+                <div class="col-md-6 col-lg-3">
+                    <div class="template-card">
+                        <div class="template-img-container">
+                            <img src="images/preview-story-widget (2).svg" alt="Slider">
+                        </div>
+                        <h3 class="template-title">Slider</h3>
+                        <p class="template-desc">
+                            Display your stories in a full slideshow layout that catches your visitors' attention.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Gallery -->
+                <div class="col-md-6 col-lg-3">
+                    <div class="template-card">
+                        <div class="template-img-container">
+                            <img src="images/preview-story-widget (3).svg" alt="Gallery">
+                        </div>
+                        <h3 class="template-title">Gallery</h3>
+                        <p class="template-desc">
+                            One widget with multiple stories and embed them as a full story gallery on your website.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Integrations Section -->
+    <section class="integrations-section">
+        <div class="container">
+            <div class="row align-items-center">
+                <!-- Text Content -->
+                <div class="col-lg-5 mb-5 mb-lg-0">
+                    <div class="integrations-badge">
+                        <i class="fa-solid fa-cube me-2"></i> Integrations
+                    </div>
+                    <h2 class="integrations-title">Works with 99.9% of web platforms</h2>
+                    <p class="text-muted mb-4 fs-5">
+                        We integrate with tons of other apps, ecommerce platforms or web builders. Native apps are
+                        avaialble, too.
+                    </p>
+                    <ul class="list-unstyled integration-check-list">
+                        <li><i class="fa-solid fa-check"></i> Works with any website</li>
+                        <li><i class="fa-solid fa-check"></i> No coding required to embed</li>
+                    </ul>
+                </div>
+
+                <!-- Visual Content -->
+                <div class="col-lg-7">
+                    <div class="integrations-visual">
+                        <!-- Hub -->
+                        <div class="tree-container">
+                            <div class="tree-hub position-relative">
+                                <div class="hub-glow"></div>
+                                <div class="hub-icon-wrapper">
+                                    <i class="fa-solid fa-code"></i>
+                                </div>
+                            </div>
+
+                            <!-- SVG Connections -->
+                            <div class="connections-svg-wrapper mx-2">
+                                <svg class="connections-svg" viewBox="0 0 100 400" preserveAspectRatio="none">
+                                    <!-- Main branching lines -->
+                                    <path d="M0,200 C50,200 50,40 100,40" />
+                                    <path d="M0,200 C50,200 50,100 100,100" />
+                                    <path d="M0,200 C50,200 50,160 100,160" />
+                                    <path d="M0,200 C50,200 50,220 100,220" />
+                                    <path d="M0,200 C50,200 50,280 100,280" />
+                                    <path d="M0,200 C50,200 50,360 100,360" />
+                                </svg>
+                            </div>
+
+                            <!-- Stack -->
+                            <div class="integration-stack">
+                                <div class="platform-card">
+                                    <img src="https://upload.wikimedia.org/wikipedia/commons/9/98/WordPress_blue_logo.svg"
+                                        alt="WordPress">
+                                </div>
+                                <div class="platform-card">
+                                    <img src="https://upload.wikimedia.org/wikipedia/commons/7/75/Weebly_logo.svg"
+                                        alt="Weebly">
+                                </div>
+                                <div class="platform-card">
+                                    <img src="https://upload.wikimedia.org/wikipedia/commons/0/0e/Shopify_logo_2018.svg"
+                                        alt="Shopify">
+                                </div>
+                                <div class="platform-card">
+                                    <img src="https://upload.wikimedia.org/wikipedia/commons/7/76/Wix.com_website_logo.svg"
+                                        alt="Wix">
+                                </div>
+                                <div class="platform-card highlighted">
+                                    <img src="https://upload.wikimedia.org/wikipedia/commons/b/b2/Squarespace_logo.svg"
+                                        alt="Squarespace">
+                                </div>
+                                <div class="platform-card">
+                                    <img src="https://upload.wikimedia.org/wikipedia/commons/4/4b/Webflow_logo.svg"
+                                        alt="Webflow">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Brand Customization Section -->
+    <section class="customization-section text-center">
+        <div class="container">
+            <h2 class="customization-title">Be on brand. Customize in minutes</h2>
+            <p class="customization-subtitle">EmbedStories gives you flexibility in managing the display and looks of
+                the
+                Instagram Stories on your website.</p>
+
+            <!-- Filter Bar -->
+            <div class="filter-bar">
+                <button class="filter-btn"><i class="fa-regular fa-calendar"></i> Stories from specific date</button>
+                <button class="filter-btn"><i class="fa-solid fa-palette"></i> Customize color</button>
+                <button class="filter-btn"><i class="fa-brands fa-instagram"></i> Follow button</button>
+                <button class="filter-btn"><i class="fa-solid fa-table-cells-large"></i> Multiple layouts</button>
+                <button class="filter-btn"><i class="fa-solid fa-gear"></i> Advance moderation</button>
+                <button class="filter-btn"><i class="fa-solid fa-code"></i> Custom CSS</button>
+            </div>
+
+            <!-- Dashboard Mockup -->
+            <div class="dashboard-mockup">
+                <!-- Sidebar -->
+                <div class="dash-sidebar d-none d-md-flex">
+                    <div class="dash-sidebar-header">
+                        <div class="bg-primary rounded-circle p-2 text-white"><i class="fa-solid fa-bolt"></i></div>
+                        <span class="fw-bold text-dark small">Stories<br><span class="text-muted fw-normal">by
+                                EmbedSocial</span></span>
+                    </div>
+                    <div class="dash-sidebar-menu">
+                        <div class="dash-menu-item"><i class="fa-solid fa-chart-line"></i> Dashboard</div>
+                        <div class="dash-menu-item"><i class="fa-solid fa-layer-group"></i> All Stories</div>
+                        <div class="dash-menu-item"><i class="fa-solid fa-cubes"></i> Widgets</div>
+                        <div class="dash-menu-item"><i class="fa-solid fa-images"></i> Galleries</div>
+                        <div class="dash-menu-item"><i class="fa-solid fa-highlighter"></i> Highlights</div>
+                        <div class="dash-menu-item text-muted mt-3 small ps-4">SETTINGS</div>
+                        <div class="dash-menu-item active"><i class="fa-solid fa-link"></i> Links</div>
+                    </div>
+                    <div class="p-3 border-top mt-auto">
+                        <div class="d-flex align-items-center gap-2">
+                            <img src="https://i.pravatar.cc/150?u=5" class="rounded-circle" width="32" height="32"
+                                alt="...">
+                            <div class="small">
+                                <div class="fw-bold text-dark">Jenny Black</div>
+                                <div class="text-muted" style="font-size: 0.75rem;">My profile</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Main Content -->
+                <div class="dash-content">
+                    <div class="dash-header">
+                        <h3>Edit Feed: Recipe Book</h3>
+                    </div>
+                    <!-- Tabs -->
+                    <div class="dash-tabs">
+                        <div class="dash-tab"><i class="fa-solid fa-eye me-2"></i> Preview</div>
+                        <div class="dash-tab"><i class="fa-solid fa-bolt me-2"></i> AMP Story</div>
+                        <div class="dash-tab active"><i class="fa-solid fa-arrow-up-right-from-square me-2"></i> Links
+                        </div>
+                        <div class="dash-tab"><i class="fa-solid fa-gear me-2"></i> Moderate</div>
+                    </div>
+
+                    <!-- Body -->
+                    <div class="dash-body">
+                        <div class="dash-body-header">
+                            <h4 class="fw-bold m-0">Recipe Book</h4>
+                            <button class="btn-follow-us"><i class="fa-brands fa-instagram"></i> Follow Us</button>
+                        </div>
+
+                        <div class="story-grid">
+                            <!-- Card 1 -->
+                            <div class="dash-story-card">
+                                <img src="images/Frame 951.svg" class="dash-story-bg" alt="Kiwi">
+                                <div class="dash-story-overlay">
+                                    <div class="story-user">
+                                        <i class="fa-brands fa-instagram"></i> New Recipes
+                                    </div>
+                                    <div class="text-center mb-4">
+                                        <h5 class="fw-bold">NEW RECIPE</h5>
+                                    </div>
+                                    <div class="d-flex justify-content-between align-items-end">
+                                        <div class="small bg-dark bg-opacity-50 px-2 rounded">18 Oct</div>
+                                        <i class="fa-solid fa-layer-group"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Card 2 -->
+                            <div class="dash-story-card">
+                                <img src="images/Rectangle 2.svg" class="dash-story-bg" alt="Pumpkin">
+                                <div class="dash-story-overlay">
+                                    <div class="story-user">
+                                        <i class="fa-brands fa-instagram"></i> Pumpkin Spice
+                                    </div>
+                                    <div class="d-flex justify-content-between align-items-end mt-auto">
+                                        <div class="small bg-dark bg-opacity-50 px-2 rounded">22 Oct</div>
+                                        <i class="fa-solid fa-layer-group"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Card 3 -->
+                            <div class="dash-story-card">
+                                <img src="images/Frame 949.svg" class="dash-story-bg" alt="Avocado">
+                                <div class="dash-story-overlay">
+                                    <div class="story-user">
+                                        <i class="fa-brands fa-instagram"></i> Avocado Time
+                                    </div>
+                                    <div class="d-flex justify-content-between align-items-end mt-auto">
+                                        <div class="small bg-dark bg-opacity-50 px-2 rounded">19 Oct</div>
+                                        <i class="fa-solid fa-layer-group"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Card 4 -->
+                            <div class="dash-story-card">
+                                <img src="images/Group 954.svg" class="dash-story-bg" alt="Sweet">
+                                <div class="dash-story-overlay">
+                                    <div class="story-user">
+                                        <i class="fa-brands fa-instagram"></i> Sweet
+                                    </div>
+                                    <div class="d-flex justify-content-between align-items-end mt-auto">
+                                        <div class="small bg-dark bg-opacity-50 px-2 rounded">01 Aug</div>
+                                        <i class="fa-solid fa-layer-group"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+    <!-- Love Story Section -->
+    <section class="love-story-section">
+        <div class="container">
+            <div class="row align-items-center">
+                <!-- Text Content -->
+                <div class="col-lg-5 mb-5 mb-lg-0">
+                    <h2 class="love-story-title">It was love at first story</h2>
+                    <p class="love-story-quote">
+                        "Great plugin and amazing support. I trialed several plugins that try to accomplish the same
+                        thing. None of them did it as beautifully and as simple as EmbedStories"
+                    </p>
+                    <p class="author-name">Bertha Jo, CEO at jacole</p>
+                    <div class="company-logo-text">jacole</div>
+                </div>
+
+                <!-- Video Content -->
+                <div class="col-lg-6 offset-lg-1">
+                    <div class="video-wrapper">
+                        <img src="images/Group 1646.svg" alt="Video Thumbnail">
+                        <div class="play-button">
+                            <i class="fa-solid fa-play"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- FAQ Section -->
+    <section class="faq-section">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h1 class="fw-bold">Frequently asked questions</h1>
+                <p class="text-muted">Have a specific question? Check out our Support Center</p>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="accordion" id="faqAccordion">
+                        <div class="accordion-item mb-3 border-0">
+                            <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button fw-bold bg-white shadow-sm" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#collapseOne">
+                                    Question 1
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse show"
+                                data-bs-parent="#faqAccordion">
+                                <div class="accordion-body bg-white shadow-sm">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eu suscipit euismod semper
+                                    leo.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item mb-3 border-0">
+                            <h2 class="accordion-header" id="headingTwo">
+                                <button class="accordion-button collapsed fw-bold bg-light" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#collapseTwo">
+                                    Question 2
+                                </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body bg-light">
+                                    Placeholder content for question 2.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item mb-3 border-0">
+                            <h2 class="accordion-header" id="headingThree">
+                                <button class="accordion-button collapsed fw-bold bg-light" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#collapseThree">
+                                    Question 3
+                                </button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body bg-light">
+                                    Placeholder content for question 3.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item mb-3 border-0">
+                            <h2 class="accordion-header" id="headingFour">
+                                <button class="accordion-button collapsed fw-bold bg-light" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#collapseFour">
+                                    Question 4
+                                </button>
+                            </h2>
+                            <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body bg-light">
+                                    Placeholder content for question 4.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Trusted By Section -->
+    <section class="trusted-section text-center">
+        <div class="container">
+            <h2 class="trusted-heading mb-5">
+                From the creators of <span class="trusted-highlight">EmbedSocial</span> trusted<br>
+                and displayed on 50,000+ websites
+            </h2>
+
+            <div
+                class="row row-cols-2 row-cols-md-3 row-cols-lg-6 g-4 align-items-center justify-content-center logo-grid opacity-50">
+                <div class="col"><img src="https://upload.wikimedia.org/wikipedia/commons/b/b1/CNN.svg" alt="CNN"
+                        class="img-fluid partner-logo"></div>
+                <div class="col"><img src="https://upload.wikimedia.org/wikipedia/commons/a/a6/Logo_NIKE.svg" alt="Nike"
+                        class="img-fluid partner-logo"></div>
+                <div class="col"><span class="h5 fw-bold text-muted">INDUSTRIOUS</span></div>
+                <div class="col"><img
+                        src="https://upload.wikimedia.org/wikipedia/commons/6/67/National_Geographic_Logo.svg"
+                        alt="NatGeo" class="img-fluid partner-logo"></div>
+                <div class="col"><span class="h5 fw-bold text-muted">florence</span></div>
+                <div class="col"><span class="h5 fw-bold text-muted">ancestry</span></div>
+
+                <!-- Duplicate row for effect as seen in image -->
+                <div class="col"><img
+                        src="https://upload.wikimedia.org/wikipedia/commons/6/67/National_Geographic_Logo.svg"
+                        alt="NatGeo" class="img-fluid partner-logo"></div>
+                <div class="col"><span class="h5 fw-bold text-muted">florence</span></div>
+                <div class="col"><span class="h5 fw-bold text-muted">ancestry</span></div>
+                <div class="col"><img src="https://upload.wikimedia.org/wikipedia/commons/a/a6/Logo_NIKE.svg" alt="Nike"
+                        class="img-fluid partner-logo"></div>
+                <div class="col"><span class="h5 fw-bold text-muted">INDUSTRIOUS</span></div>
+                <div class="col"><img src="https://upload.wikimedia.org/wikipedia/commons/b/b1/CNN.svg" alt="CNN"
+                        class="img-fluid partner-logo"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section text-center">
+        <div class="container">
+            <h1 class="cta-title">Ready to dive in?<br>Create your widget today.</h1>
+            <p class="cta-subtitle">Display Instagram Stories Widget on your website, that auto-syncs, and<br>updates
+                each time you add a photo in your active story.</p>
+            <div class="cta-form-wrapper">
+                <form class="d-flex justify-content-center cta-form">
+                    <input type="email" class="form-control me-2" placeholder="Enter your email...">
+                    <button type="submit" class="btn btn-primary d-flex align-items-center">Start Free Trial <span
+                            class="ms-2">→</span></button>
+                </form>
+                <div class="cta-subtext mt-3">
+                    <small>Free 7-day trial • Easy setup • Cancel any time</small>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="footer-custom">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-4 mb-4 mb-lg-0">
+                    <div class="footer-brand mb-3">
+                        <span class="fs-5 fw-bold text-white d-flex align-items-center"><i
+                                class="fa-solid fa-code me-2"></i> embedsocial</span>
+                    </div>
+                    <p class="footer-desc small text-white-50">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id rhoncus suspendisse mattis ultricies
+                        adipiscing quam pretium eleifend.
+                    </p>
+                </div>
+                <div class="col-lg-2 col-md-2 col-6 mb-4 mb-lg-0">
+                    <h6 class="footer-heading text-white fw-bold mb-3">Product</h6>
+                    <ul class="list-unstyled footer-links text-white-50 small">
+                        <li><a href="#" class="text-white-50 text-decoration-none">Reviews management</a></li>
+                        <li><a href="#" class="text-white-50 text-decoration-none">Embed Instagram stories</a></li>
+                        <li><a href="#" class="text-white-50 text-decoration-none">Display Instagram feeds</a></li>
+                        <li><a href="#" class="text-white-50 text-decoration-none">Collect reviews</a></li>
+                        <li><a href="#" class="text-white-50 text-decoration-none">Send email requests</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-3 col-6 mb-4 mb-lg-0">
+                    <h6 class="footer-heading text-white fw-bold mb-3">Company</h6>
+                    <ul class="list-unstyled footer-links text-white-50 small">
+                        <li><a href="#" class="text-white-50 text-decoration-none">About EmbedSocial</a></li>
+                        <li><a href="#" class="text-white-50 text-decoration-none">Brand Guidelines</a></li>
+                        <li><a href="#" class="text-white-50 text-decoration-none">Press Kit</a></li>
+                        <li><a href="#" class="text-white-50 text-decoration-none">Support</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-3 col-6">
+                    <h6 class="footer-heading text-white fw-bold mb-3">Integrations</h6>
+                    <ul class="list-unstyled footer-links text-white-50 small">
+                        <li><a href="#" class="text-white-50 text-decoration-none">WordPress</a></li>
+                        <li><a href="#" class="text-white-50 text-decoration-none">Shopify</a></li>
+                        <li><a href="#" class="text-white-50 text-decoration-none">Magento</a></li>
+                        <li><a href="#" class="text-white-50 text-decoration-none">Squarespace</a></li>
+                        <li><a href="#" class="text-white-50 text-decoration-none">Intercom</a></li>
+                        <li><a href="#" class="text-white-50 text-decoration-none">Slack</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-3 col-6">
+                    <h6 class="footer-heading text-white fw-bold mb-3">Resources</h6>
+                    <ul class="list-unstyled footer-links text-white-50 small">
+                        <li><a href="#" class="text-white-50 text-decoration-none">Blog</a></li>
+                        <li><a href="#" class="text-white-50 text-decoration-none">Help Center</a></li>
+                        <li><a href="#" class="text-white-50 text-decoration-none">Case Studies</a></li>
+                        <li><a href="#" class="text-white-50 text-decoration-none">API Documentation</a></li>
+                        <li><a href="#" class="text-white-50 text-decoration-none">System Status</a></li>
+                        <li><a href="#" class="text-white-50 text-decoration-none">Contact Us</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
