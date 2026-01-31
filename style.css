@@ -1,7 +1,6 @@
 :root {
     --primary-blue: #0066ff;
     --highlight-yellow: #fff9c0;
-    /* Adjusted for that highlighter look */
     --text-dark: #111827;
     --text-grey: #6b7280;
     --bg-light: #ffffff;
@@ -10,10 +9,8 @@
 
 :root {
     --bs-primary: #007bff;
-    /* Bright Blue */
     --bs-body-font-family: 'Inter', sans-serif;
     --highlight-yellow: Yellow;
-    /* Light Yellow background */
 }
 
 body {
@@ -21,7 +18,6 @@ body {
     -webkit-font-smoothing: antialiased;
 }
 
-/* Navbar Tweaks */
 .navbar-brand {
     font-size: 1.25rem;
     letter-spacing: -0.5px;
@@ -32,18 +28,15 @@ body {
     font-weight: 500;
 }
 
-/* Hero Section */
 .hero-section {
     padding-top: 100px;
     padding-bottom: 100px;
     background-color: #ffffff;
     min-height: 80vh;
-    /* Ensure full viewport look */
 }
 
 .display-3 {
     font-weight: 800;
-    /* Extra bold */
     letter-spacing: -1.5px;
     color: #1a1a1a;
 }
@@ -53,16 +46,13 @@ body {
     line-height: 1.6;
 }
 
-/* Highlight Effect */
 .highlight-yellow {
     background-color: var(--highlight-yellow);
     padding: 0 4px;
     border-radius: 4px;
     display: inline-block;
-    /* Ensure box decoration works nicely */
 }
 
-/* Floating Tags */
 .floating-tag {
     display: inline-flex;
     align-items: center;
@@ -76,20 +66,14 @@ body {
     font-size: 1.2rem;
 }
 
-/* Composition Container */
 .composition-container {
     border: 2px solid #ddd;
-    /* Simulate the box in the screenshot */
     border-radius: 4px;
     padding: 20px;
     background: transparent;
-    /* Or white if needed, but screenshot shows it clear */
-    /* In the screenshot there's a purple border box around the right side, so mimicking that */
     border-color: #8b5cf6;
-    /* Purple border */
 }
 
-/* Story Cards */
 .story-card {
     position: relative;
     background: #000;
@@ -98,7 +82,6 @@ body {
 
 .story-card.active-story {
     border: 4px solid #d62976;
-    /* Instagram gradient-ish color, simplified to pink */
 }
 
 .story-card img {
@@ -115,7 +98,6 @@ body {
     padding: 12px;
 }
 
-/* Input Group Tweak */
 .hero-form .input-group {
     background: #fff;
     border: 1px solid #e5e7eb;
@@ -125,12 +107,10 @@ body {
     box-shadow: none;
 }
 
-/* Social Proof Section */
 .logo-item,
 .logo-text {
     filter: grayscale(100%);
     opacity: 0.5;
-    /* Lighter grey like screenshot */
     transition: all 0.3s ease;
     object-fit: contain;
     cursor: pointer;
@@ -143,7 +123,6 @@ body {
     color: #000 !important;
 }
 
-/* Widgets Section */
 .widget-item {
     transition: all 0.2s ease;
 }
@@ -154,7 +133,6 @@ body {
 
 .widget-item.active {
     background-color: #e0f2fe;
-    /* Light blue similar to screenshot */
 }
 
 .widget-item.active .text-secondary {
@@ -169,7 +147,6 @@ body {
     background-color: #e0f2fe;
 }
 
-/* Platform Cards */
 .platform-card {
     transition: transform 0.2s ease, box-shadow 0.2s ease;
     cursor: pointer;
@@ -187,10 +164,8 @@ body {
     overflow-x: hidden;
 }
 
-/* Navbar */
 .navbar {
     background: #fff;
-    /* Ensure it's white */
     padding-top: 1rem;
     padding-bottom: 1rem;
 }
@@ -201,7 +176,6 @@ body {
     width: 32px;
     height: 32px;
     display: flex;
-    /* Center icon */
     align-items: center;
     justify-content: center;
     border-radius: 4px;
@@ -242,10 +216,8 @@ body {
     transform: translateY(-1px);
 }
 
-/* Hero Section */
 .hero-section {
     padding-top: 140px;
-    /* Space for fixed navbar */
     padding-bottom: 80px;
     position: relative;
 }
@@ -261,7 +233,6 @@ body {
     background-color: var(--highlight-yellow);
     padding: 0 4px;
     display: inline-block;
-    /* Better for highlighter effect */
 }
 
 .lead {
@@ -270,7 +241,6 @@ body {
     max-width: 500px;
 }
 
-/* Form */
 .email-form {
     max-width: 480px;
 }
@@ -291,11 +261,9 @@ body {
     font-weight: 900;
 }
 
-/* Social Proof */
 .social-proof {
     margin-top: 3rem;
     border-top: 1px solid #f3f4f6;
-    /* Subtle divider if needed, or remove */
     padding-top: 2rem;
 }
 
@@ -309,7 +277,6 @@ body {
     letter-spacing: 2px;
 }
 
-/* Graphic Elements */
 .cursor-mockup {
     position: absolute;
     pointer-events: none;
@@ -336,7 +303,6 @@ body {
     padding: 4px 8px;
     border-radius: 4px;
     margin-left: -5px;
-    /* Overlap nicely */
     margin-top: 15px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
@@ -350,11 +316,9 @@ body {
     transform: rotate(-30deg);
 }
 
-/* Right Side Widget Mockup */
 .widget-mockup-wrapper {
     position: relative;
     padding-top: 40px;
-    /* Space for the floating header */
     padding-left: 20px;
     padding-right: 20px;
     display: flex;
@@ -370,7 +334,6 @@ body {
     padding: 10px 20px;
     border-radius: 50px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
-    /* Soft shadow */
     z-index: 20;
     white-space: nowrap;
     min-width: 280px;
@@ -379,11 +342,8 @@ body {
 .widget-frame {
     background: #fff;
     border: 4px solid #fecb00;
-    /* Yellow Border */
     border-radius: 0;
-    /* Square corners as per screenshot or slightly rounded? Screenshot looks sharp/square. */
     padding: 15px;
-    /* Spacing inside yellow border */
     position: relative;
     width: 100%;
     max-width: 450px;
@@ -404,18 +364,15 @@ body {
     display: block;
 }
 
-/* Custom Masonry Grid */
 .story-grid {
     display: grid;
     grid-template-columns: 1.2fr 1fr;
-    /* Left col wider */
     grid-template-rows: 140px 140px;
     gap: 12px;
 }
 
 .story-item {
     border-radius: 8px;
-    /* Slight rounding on images */
     overflow: hidden;
     position: relative;
 }
@@ -441,7 +398,6 @@ body {
     transform: scale(1.05);
 }
 
-/* Overlays */
 .story-overlay-text {
     position: absolute;
     z-index: 5;
@@ -481,11 +437,8 @@ body {
 .insta-float-icon {
     position: absolute;
     bottom: 20px;
-    /* Inside the frame now? Or floating out? Screenshot shows it overlapping border? */
     left: -25px;
-    /* Stick out to left */
     background: #fff;
-    /* White bg */
     width: 60px;
     height: 60px;
     border-radius: 16px;
@@ -505,14 +458,11 @@ body {
 
 body {
     background-color: #f9fafb;
-    /* Global light bg to match pricing area style */
     font-family: 'Inter', sans-serif;
     color: #333;
     padding-top: 70px;
-    /* Space for fixed navbar */
 }
 
-/* Features Section */
 .features-section {
     padding: 100px 0;
     overflow: hidden;
@@ -532,7 +482,6 @@ body {
 
 .highlight-yellow {
     background-color: #fff44f;
-    /* Bright yellow highlighter */
     padding: 0 10px;
     display: inline-block;
 }
@@ -557,9 +506,7 @@ body {
 
 .badge-purple {
     background-color: #e9d5ff;
-    /* Light purple */
     color: #7e22ce;
-    /* Dark purple */
 }
 
 .feature-title {
@@ -580,13 +527,11 @@ body {
 
 .feature-list li i {
     color: #000;
-    /* Checkmark color */
     margin-right: 15px;
     margin-top: 5px;
     font-size: 0.9rem;
 }
 
-/* Testimonials Section */
 .testimonials-section {
     padding: 60px 0 100px 0;
     background-color: #f9fafb;
@@ -599,7 +544,6 @@ body {
     height: 100%;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
     border: 1px solid white;
-    /* clean look */
     display: flex;
     flex-direction: column;
 }
@@ -655,7 +599,6 @@ body {
     color: #9ca3af;
 }
 
-/* Pricing Section */
 .pricing-section {
     padding: 80px 0 100px 0;
     background-color: #f3f4f6;
@@ -685,7 +628,6 @@ body {
     border: 2px solid #0066ff;
     position: relative;
     margin-top: -15px;
-    /* Slight lift */
 }
 
 .pro-badge {
@@ -729,11 +671,9 @@ body {
     font-size: 0.8rem;
 }
 
-/* FAQ Section */
 .faq-section {
     padding: 80px 0;
     background-color: #f1f5f9;
-    /* Slightly darker than pricing for contrast */
     position: relative;
     z-index: 10;
 }
@@ -791,7 +731,6 @@ body {
     }
 }
 
-/* Trusted By Section */
 .trusted-section {
     padding: 100px 0;
     background-color: white;
@@ -806,7 +745,6 @@ body {
 
 .trusted-highlight {
     background-color: #fff44f;
-    /* Bright yellow */
     padding: 0 5px;
     display: inline-block;
 }
@@ -829,11 +767,10 @@ body {
     align-items: center;
 }
 
-/* CTA Section */
 .cta-section {
+    mar
     padding: 100px 0;
     background-color: #f3f6fa;
-    /* Light blueish gray from image */
 }
 
 .cta-title {
@@ -875,10 +812,8 @@ body {
     font-size: 0.85rem;
 }
 
-/* Footer Section */
 .footer-custom {
     background-color: #111827;
-    /* Dark almost black */
     padding: 80px 0;
     color: white;
 }
@@ -892,8 +827,6 @@ body {
     text-decoration: underline !important;
 }
 
-
-/* Templates Section */
 .templates-section {
     background-color: #0b0f19;
     padding: 100px 0;
@@ -974,7 +907,6 @@ body {
     line-height: 1.5;
 }
 
-/* Highlights card specific layout (text first) */
 .template-card.highlights-card {
     display: flex;
     flex-direction: column;
@@ -990,10 +922,8 @@ body {
     order: 1;
 }
 
-/* Integrations Section */
 .integrations-section {
     background-color: #f0f6ff;
-    /* Light blueish background */
     padding: 100px 0;
     overflow: hidden;
 }
@@ -1027,7 +957,6 @@ body {
     font-weight: bold;
 }
 
-/* Visualization */
 .integrations-visual {
     display: flex;
     align-items: center;
@@ -1066,16 +995,12 @@ body {
 .connection-lines {
     flex-grow: 1;
     height: 300px;
-    /* Approximate height of the stack */
     border-right: 2px dashed #d1d5db;
-    /* The vertical line */
     position: relative;
     margin: 0 40px;
     display: none;
-    /* Hidden for simple implementation, using simplified approach */
 }
 
-/* Simplified Tree Structure */
 .tree-container {
     display: flex;
     align-items: center;
@@ -1083,7 +1008,6 @@ body {
 
 .tree-hub {
     margin-right: -2px;
-    /* Connect to line */
     z-index: 10;
 }
 
@@ -1099,7 +1023,6 @@ body {
 .tree-connector-lines {
     width: 60px;
     border-right: 2px dashed #cbd5e1;
-    /* Create specific branches using pseudo elements or just alignment */
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -1108,7 +1031,6 @@ body {
     position: relative;
 }
 
-/* Horizontal connectors */
 .connector-line {
     height: 2px;
     background: transparent;
@@ -1121,11 +1043,6 @@ body {
     content: '';
     position: absolute;
     left: -60px;
-    /* Reach back to hub center vertically if we did that, but let's just make lines */
-    /* This is complex to do purely CSS without SVG. 
-       Let's fake it: Hub on Left, Stack on Right.
-       Dotted line from Hub to a Vertical Dotted Line, then Horizontal lines to cards.
-    */
 }
 
 .integration-stack {
@@ -1144,7 +1061,6 @@ body {
     width: 200px;
     transition: transform 0.2s;
     border: 1px solid transparent;
-    /* default */
 }
 
 .platform-card img {
@@ -1154,10 +1070,8 @@ body {
 
 .platform-card.highlighted {
     border: 2px solid #22c55e;
-    /* Green border for active */
 }
 
-/* SVG Line Container */
 .connections-svg {
     width: 150px;
     height: 400px;
@@ -1170,7 +1084,6 @@ body {
     stroke-dasharray: 6;
 }
 
-/* Customization Section */
 .customization-section {
     padding: 100px 0;
     overflow: hidden;
@@ -1226,10 +1139,8 @@ body {
     margin: 0 auto;
     text-align: left;
     height: 600px;
-    /* Fixed height for scroll mimic */
 }
 
-/* Sidebar */
 .dash-sidebar {
     width: 250px;
     background-color: #f8fafc;
@@ -1273,7 +1184,6 @@ body {
     background-color: #f1f5f9;
 }
 
-/* Main Content */
 .dash-content {
     flex-grow: 1;
     display: flex;
@@ -1378,14 +1288,10 @@ body {
     font-weight: 500;
 }
 
-
-* CTA Section Updates */
 .cta-section {
     padding: 100px 0;
     background-color: #f0f6ff;
-    /* Light blue background as in image */
     text-align: left;
-    /* Reset from previous center */
 }
 
 .cta-title {
@@ -1422,7 +1328,6 @@ body {
 
 .cta-visual-wrapper {
     position: relative;
-    /* height: 400px; */
     align-items: center;
 }
 
@@ -1563,11 +1468,6 @@ body {
     line-height: 1.6;
 }
 
-
-
-
-
-/* Love Story Section */
 .love-story-section {
     background-color: #0b0f19;
     padding: 100px 0;
@@ -1639,14 +1539,12 @@ body {
     color: #0b0f19;
     font-size: 2rem;
     margin-left: 5px;
-    /* Visual centering adjustment for play icon */
 }
 
 .video-wrapper:hover .play-button {
     transform: translate(-50%, -50%) scale(1.1);
 }
 
-/* Responsive Overrides */
 @media (max-width: 991px) {
     .hero-title {
         font-size: 2.5rem;
@@ -1683,7 +1581,6 @@ body {
     }
 }
 
-/* Widgets Section Styles */
 .browser-mockup {
     background: #fff;
     border-radius: 12px;
@@ -1693,7 +1590,6 @@ body {
 
 .browser-header {
     background: #111827;
-    /* Dark header like screenshot */
     padding: 12px 16px;
     display: flex;
     gap: 8px;
@@ -1721,7 +1617,6 @@ body {
 .mockup-content {
     min-height: 400px;
     position: relative;
-    /* Image is set inline in HTML */
 }
 
 .overlay-white {
@@ -1759,7 +1654,6 @@ body {
     box-shadow: 0 4px 12px rgba(0, 102, 255, 0.1);
 }
 
-/* Features Section Styles */
 .insta-gradient-text {
     background: -webkit-linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);
     background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);
